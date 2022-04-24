@@ -1,0 +1,39 @@
+/*Atributos del canva*/
+.centered {
+    height: 20%;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0px auto;
+    left: 0;
+    right: 0;
+}
+/*Atributos del botón*/
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(41, 212, 255);
+    background-color: transparent;
+    width: 55px;
+    height: 55px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 100%;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: rgb(41, 212, 255);
+    outline: none;
+}
+
+/*Atributos texto explicativo*/
+.instructions {
+    position: fixed;
+    top: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    color: rgb(41, 212, 255);
+    z-index: 999999;
+}
